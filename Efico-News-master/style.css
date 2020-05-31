@@ -5,14 +5,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
 .first{
     /* background-image: url("Home.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; */
     background-color: #3c185b;
-
 }
 .strong{
     font-family: 'Roboto', sans-serif;
@@ -25,7 +23,6 @@ body{
     box-shadow: 1px 10px 25px rgb(206, 206, 206);
 }
 #train2{
-    
     height: 100%;
     border-radius: 2%;
     margin-left: 10%;
@@ -45,7 +42,6 @@ body{
 #navbarSupportedContent{
     color: rgb(253, 252, 252);
     align-items: flex-end;
-    /* margin-left: 32%; */
 
 }
 .footer{
