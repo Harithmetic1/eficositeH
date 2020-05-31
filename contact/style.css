@@ -21,7 +21,9 @@ header{
     background-color: #3c185b;
     text-align: center;
 }
-
+.op{
+    white-spaces: no-wrap
+}
 .eficoN{
     color: white;
 }
