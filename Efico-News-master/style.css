@@ -42,8 +42,11 @@ body{
 #navbarSupportedContent{
     color: rgb(253, 252, 252);
     align-items: flex-end;
-
 }
+.navbar-nav{
+white-space: no-wrap;
+}
+
 .footer{
     background-color: #3c185b;
     color: white;
