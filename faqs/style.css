@@ -42,37 +42,7 @@ font-size: 17px;
         color: white;
     }
     
-    @media only screen and (max-width: 500px) {
-        #navbarSupportedContent{
-            margin-left: 40%;
-            
-        }
-        article{
-            margin-left: 35%;
-           
-            justify-content: center;
-            }
-            
-        .eficoN{
-            text-align: center;
-        }
-        .footer{
-            text-align: center;
-        }
-    }
-    button{
-        width: 80%;
-        height: 65%;
-        border-radius: 6px;
-    background-color: white;
-font-size: 19px;    }
-.dropdown-item{
-    font-size: 13px;
-    word-spacing: 3px;
-}
-.btn btn-secondary dropdown-toggle{
-    height: 60%;
-}
+    
 
 @media only screen and (min-width: 700px) {
     #facard{
