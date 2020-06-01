@@ -30,6 +30,10 @@ body{
     box-shadow: 1px 10px 25px rgb(206, 206, 206);
 }
 
+ .navbar-nav{
+    white-space: no-wrap;
+    }
+
 .second{
     text-align: center;
 }
@@ -79,4 +83,8 @@ white-space: no-wrap;
     .to{
 white-space: no-wrap;
 }
+    .navbar-nav{
+    white-space: no-wrap;
+    }
+    
 }
