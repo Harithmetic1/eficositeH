@@ -43,28 +43,7 @@ font-size: 17px;
     }
     
     
-@media only screen and (max-width: 500px) {
-            
-        .eficoN{
-            text-align: center;
-        }
-        .footer{
-            text-align: center;
-        }
-    }
-    button{
-        width: 80%;
-        height: 65%;
-        border-radius: 6px;
-    background-color: white;
-font-size: 19px;    }
-.dropdown-item{
-    font-size: 13px;
-    word-spacing: 3px;
-}
-.btn btn-secondary dropdown-toggle{
-    height: 60%;
-}
+
 @media only screen and (min-width: 300px) {
     #facard{
         width: 30rem;
@@ -104,7 +83,7 @@ font-size: 19px;    }
         text-align: center;
     }
     .up{
-        margin-left: 60%;
+        margin-left: 50%;
     }
 
 }
