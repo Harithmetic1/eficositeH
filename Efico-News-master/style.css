@@ -48,7 +48,7 @@ body{
    
 }
 .to{
-white-space: no-wrap;
+white-space: nowrap;
 }
 
 .footer{
@@ -59,7 +59,7 @@ white-space: no-wrap;
 @media only screen and (min-width: 1020px) {
     #navbarSupportedContent{
         margin-left: 40%;
-        white-space: no-wrap;
+        white-space: nowrap;
     }
     .eficoN{
         text-align: center;
@@ -72,7 +72,7 @@ white-space: no-wrap;
 @media only screen and (min-width: 1200px) {
     #navbarSupportedContent{
         margin-left: 50%;
-        white-space: no-wrap;
+        white-space: nowrap;
     }
     .eficoN{
         text-align: center;
@@ -81,10 +81,10 @@ white-space: no-wrap;
         text-align: center;
     }
     .to{
-white-space: no-wrap;
+white-space: nowrap;
 }
     .navbar-nav{
-    white-space: no-wrap;
+    white-space: nowrap;
     }
     
 }
