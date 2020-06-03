@@ -21,6 +21,10 @@ li {
 .row {
     flex-direction: row;
 }
+#your{
+    font-size: 7px;
+}
+
 .top__bg {
     background-color: #3C185B;
     width: 100%;
