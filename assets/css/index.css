@@ -200,10 +200,7 @@ section {
     font-size: 50px;
 }
 
-.section-three {
-    padding: 60px 0 150px 0px;
-    align-items: center
-}
+
 .section-three h1 {
     text-transform: uppercase;
     font-size: 50px;
@@ -211,48 +208,100 @@ section {
     font-weight: 600;
     margin-bottom: 120px
 }
-.section-three .carousel {
+.section-three  {
     width: 100%;
-    height: 200px;
+    height: auto;
     min-height: fit-content;
-    position: relative;
+
 }
-.section-three .carousel .control {
+.section-three  .control {
     right: 0;
     width: 105px;
     height: inherit;
     align-items: center;
     justify-content: center;
 }
-.section-three .carousel .control:hover {
+.section-three  .control:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.2);
 }
-.section-three .carousel .next {
-    position: absolute;
-    right: 0;
-}
+
 .section-three .review {
     margin: 0 0 0 10px;
     padding-right: 115px;
 }
-.section-three .content {
-    margin-left: 40px;
-}
+
 .section-three .reviewer__name {
     text-transform: capitalize;
     color: #3C185B;
-    font-size: 30px;
+    
     margin-bottom: 30px;
 }
 .section-three .review__content {
     color: black;
-    font-size: 25px;
+
 }
 .section-four {
     align-items: center;
     margin-bottom: 50px;
 }
+
+.carousel{
+    align-items: center;
+    display: flex;
+    margin: 2rem auto;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    
+}
+    .carousel_images{
+        display: flex;
+        transform: translateX(0);
+        transition: transform 0.25s;
+    }
+    .caroImg{
+        border-radius: 5px;
+    }
+
+    .carousel_button{
+        background: #3C185B;
+        border: 0;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer;
+        font-size: 1.5rem;
+        font-weight: bold;
+        height: 3rem;
+        opacity: 0.25;
+        position: absolute;
+        transition: opacity 0.25s;
+        width: 3rem;
+        z-index: 1;
+        outline: transparent;
+    }
+    .previous{
+        top: 120px;
+        left: 5px;
+    }
+    .previous:hover{
+        opacity: 0.5;
+    }
+    .next{
+        top: 120px;
+        right: 5px;
+    }
+    .next:hover{
+        opacity: 0.5;
+    }
+    .ttxt{
+        text-transform: uppercase;
+    font-size: 50px;
+    color: #3C185B;
+    font-weight: 650;
+    margin-bottom: 100px;
+    
+    }
 .section-four h1 {
     text-transform: uppercase;
     font-size: 50px;
