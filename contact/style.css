@@ -21,7 +21,9 @@ header{
     background-color: #3c185b;
     text-align: center;
 }
-
+.op{
+    white-spaces: no-wrap
+}
 .eficoN{
     color: white;
 }
@@ -65,7 +67,7 @@ input{
 
 @media only screen and (min-width: 1200px) {
     .up{
-        margin-left: 60%;
+        margin-left: 50%;
     }
     .eficoN{
         text-align: center;

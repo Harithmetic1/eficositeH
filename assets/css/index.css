@@ -21,6 +21,10 @@ li {
 .row {
     flex-direction: row;
 }
+#your{
+    font-size: 7px;
+}
+
 .top__bg {
     background-color: #3C185B;
     width: 100%;
@@ -300,6 +304,9 @@ footer {
      }
      .section-one li {
          margin-bottom: 60px;
+     }
+     #your{
+     font-size: 12px;
      }
  }
 @media only screen and (max-width: 1150px) {

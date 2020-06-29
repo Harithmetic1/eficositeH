@@ -7,7 +7,7 @@ box-sizing: border-box;
     white-space: nowrap;
 }
  #facard{
-     width: 22rem;
+     width: 21rem;
  }
 .first{
     /* background-image: url("Home.jpg");
@@ -42,37 +42,9 @@ font-size: 17px;
         color: white;
     }
     
-    @media only screen and (max-width: 500px) {
-        #navbarSupportedContent{
-            margin-left: 40%;
-            
-        }
-        article{
-            margin-left: 35%;
-           
-            justify-content: center;
-            }
-            
-        .eficoN{
-            text-align: center;
-        }
-        .footer{
-            text-align: center;
-        }
-    }
-    button{
-        width: 80%;
-        height: 65%;
-        border-radius: 6px;
-    background-color: white;
-font-size: 19px;    }
-.dropdown-item{
-    font-size: 13px;
-    word-spacing: 3px;
-}
-.btn btn-secondary dropdown-toggle{
-    height: 60%;
-}
+    
+
+
 
 @media only screen and (min-width: 700px) {
     #facard{
@@ -105,7 +77,7 @@ font-size: 19px;    }
         text-align: center;
     }
     .up{
-        margin-left: 60%;
+        margin-left: 50%;
     }
 
 }
