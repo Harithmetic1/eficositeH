@@ -11,6 +11,11 @@
 <script src="assets/js/script.js"></script>
 </head>
 <body>
+<div class="splash ">
+    <img src="https://media.giphy.com/media/lRwEh67kuL4EWx0hHs/giphy.gif" alt="" class="fade-in" width="250" height="250">
+   
+</div>
+
     <div class="top__bg flex col">
         <header class="flex row">
             <div class="logo flex col">
@@ -173,22 +178,39 @@
                 <p class="member__name">David Adefunmilayo</p>
                 <p class="member__position">Founder and Director</p>
             </li>
-            <li class="Flex text-center">
             
-                    <img src="./assets/img/onome.jpg" alt="">
-                            
-                <p class="member__name">Onome Agbi</p>
-                <p class="member__position"> Human Resource Manager</p>
-            </li>
             <li class="Flex text-center">
                     <img src="./assets/img/dami.jpg" alt="">
                 <p class="member__name">Damilola Adesanmi</p>
                 <p class="member__position">COO / Assistant Director</p>
             </li>
             <li class="Flex text-center">
-                    <img src="./assets/img/joy.jpg" alt="">
-                <p class="member__name">Joy  Emekpo</p>
-                <p class="member__position">Head of Finance</p>
+                <img src="./assets/img/joy.jpg" alt="">
+            <p class="member__name">Joy  Emekpo</p>
+            <p class="member__position">Head of Finance</p>
+        </li>
+            <li class="Flex text-center">
+            
+                <img src="./assets/img/onome.jpg" alt="">
+                        
+            <p class="member__name">Onome Agbi</p>
+            <p class="member__position"> Human Resource Manager</p>
+        </li>
+            
+            <li class="Flex text-center">
+                    <img src="https://res.cloudinary.com/dox2gqczu/image/upload/v1593457088/IMG-20190831-WA0055_2_akvv0k.jpg" alt="">
+                <p class="member__name">Micheal Ojo</p>
+                <p class="member__position">Programs Manager</p>
+            </li>
+            <li class="Flex text-center">
+                    <img src="https://res.cloudinary.com/dox2gqczu/image/upload/v1593459541/Goodness2_qggwzu.png" alt="">
+                <p class="member__name">Nwadibie Goodness</p>
+                <p class="member__position">Marketing Manager</p>
+            </li>
+            <li class="Flex text-center">
+                    <img src="https://res.cloudinary.com/dox2gqczu/image/upload/v1593458500/Harith_pitegj.png" alt="">
+                <p class="member__name">Harith Onigemo</p>
+                <p class="member__position">Technology Lead</p>
             </li>
         </ul>
     </section>
@@ -231,8 +253,17 @@
     const carouselImages = document.querySelector('.carousel_images');
     const carouselButtons = document.querySelectorAll('.carousel_button');
     const numberOfImages = document.querySelectorAll('.carousel_images img').length;
+    const splash = document.querySelector('.splash');
     let imageIndex = 1;
     let translateX = 0;
+
+
+    document.addEventListener('DOMContentLoaded', (e)=>{
+        setTimeout(()=>{
+            splash.classList.add('display-none');
+        }, 2000);
+    })
+    
 
     carouselButtons.forEach(button => {
         button.addEventListener('click', event => {
