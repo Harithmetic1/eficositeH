@@ -25,7 +25,17 @@ body{
         text-align: center;
         margin: 10px;
         }
-   .segment1{
+        .segment1{
+            color: black;
+            height: 200px;
+        border-radius: 2%;
+       margin:10px;
+        background-color: #F0EFEF;
+        width: 350px;
+box-shadow: 1px 10px 25px#F0EFEF;   
+        }
+
+   .hove:hover{
     color: #FFF748;
     height: 200px;
 border-radius: 2%;
@@ -57,7 +67,6 @@ box-shadow: 1px 10px 25px#F0EFEF;
     text-align: center;
 }
 .footer{
-
     background-color: #3c185b;
     color: white;
     text-align: center;
@@ -67,13 +76,13 @@ box-shadow: 1px 10px 25px#F0EFEF;
 @media only screen and (min-width: 300px) {
 
     .segment1{
-        color: #FFF748;
-        height: 200px;
-    border-radius: 2%;
-    margin:10px;
-    background-color: #3C185B;
-    width: 300px;
-    box-shadow: 1px 10px 25px #3C185B;   
+        color: black;
+            height: 200px;
+        border-radius: 2%;
+       margin:10px;
+        background-color: #F0EFEF;
+        width: 300px;
+box-shadow: 1px 10px 25px#F0EFEF;   
     }
             .segment,  .segment2{
                 color: black;
