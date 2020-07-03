@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -21,11 +24,16 @@ header{
     background-color: #3c185b;
     text-align: center;
 }
-.op{
-    white-spaces: no-wrap
-}
+
 .eficoN{
     color: white;
+}
+
+h2.eficoN{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    font-weight: lighter;
 }
 
 article{
