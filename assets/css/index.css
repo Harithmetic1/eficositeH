@@ -391,8 +391,8 @@ footer {
          font-size: 30px
      }
      .section-one ul.row {
-         width: fit-content;
-         flex-direction: column;
+         width: 100%;
+         flex-direction: row; 
      }
      .section-one li {
          margin-bottom: 60px;
@@ -401,6 +401,24 @@ footer {
      font-size: 12px;
      }
  }
+ @media only screen and (max-width: 1200px) {
+    section.flex h1 {
+        margin-bottom: 60px;
+        font-size: 30px
+    }
+    .section-one ul.row {
+        width: fit-content;
+        flex-direction: column;
+       
+    }
+    .section-one li {
+        margin-bottom: 60px;
+    }
+    #your{
+    font-size: 12px;
+    }
+}
+
 @media only screen and (max-width: 1150px) {
     nav ul.flex.row {
         padding-top: 80px;
