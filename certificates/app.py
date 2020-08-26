@@ -51,7 +51,7 @@ def make_certificate(name):
 
 
 
-        path = os.path.abspath('../assets/img/certificates') + '\\'+ filename
+        path = os.path.join(os.path.abspath('../assets/img/certificates'), filename)
         print(path)
         img.save(path)
         return {
