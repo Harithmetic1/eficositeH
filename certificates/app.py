@@ -1,13 +1,13 @@
 import os, json
 from PIL import Image, ImageFont, ImageDraw
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
+from io import BytesIO
 
 app = Flask(__name__)
 CORS(app)
 
 def read_json(f):
-    f = os.path.abspath(f)
     with open(f) as f:
         data = json.load(f)
     return data
@@ -54,11 +54,16 @@ def make_certificate(name):
         path = os.path.join(os.path.abspath('../assets/img/certificates'), filename)
         print(path)
         img.save(path)
-        return {
-            'Image Path':path
-            }
-    cert = draw_text("certificate.png", name)
-    return jsonify(cert)
+        with open(path, 'rb') as f:
+            imgByte = f.read()
+        return imgByte
+    certByte = draw_text("certificate.png", name)
+
+    return send_file(
+        BytesIO(certByte),
+        attachment_filename=name+'.png',
+        as_attachment=False
+    )
 
 
 if __name__ == "__main__":
