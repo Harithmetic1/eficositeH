@@ -52,7 +52,7 @@ def make_certificate(name):
 
         abspath=os.path.abspath(os.path.dirname(__name__))
         path = url_for('static', filename=filename)
-        img.save(abspath+path)
+        img.save(path[1:])
         return request.host_url + path
     certByte = draw_text("certificate.png", name)
 
