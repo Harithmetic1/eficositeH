@@ -54,6 +54,7 @@ white-space: nowrap;
 .footer{
     background-color: #3c185b;
     color: white;
+    text-align: center;
 }
 
 @media only screen and (min-width: 1020px) {
