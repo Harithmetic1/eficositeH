@@ -1,13 +1,13 @@
 import os, json
 from PIL import Image, ImageFont, ImageDraw
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file, url_for
 from flask_cors import CORS
+from io import BytesIO
 
 app = Flask(__name__)
 CORS(app)
 
 def read_json(f):
-    f = os.path.abspath(f)
     with open(f) as f:
         data = json.load(f)
     return data
@@ -20,7 +20,7 @@ def index():
 @app.route("/certificate/<email>")
 def generate(email):
     certificate = {
-        'Image Path': "Path nt found, it seems your email is not authorized"
+        'Image Path': "Path not found, it seems your email is not authorized"
     }
     for data in read_json('detailsList.json'):
         if email.lower() == data['email'].split('@')[0].lower():
@@ -48,17 +48,15 @@ def make_certificate(name):
         draw.text((x, y), text, fill=color, font=PIL_font)
 
         filename = "{}.png".format(('-').join(name.split(' ')))
+        print(filename)
 
+        abspath=os.path.abspath(os.path.dirname(__name__))
+        path = url_for('static', filename=filename)
+        img.save(path[1:])
+        return request.host_url + path
+    certByte = draw_text("certificate.png", name)
 
-
-        path = os.path.join(os.path.abspath('../assets/img/certificates'), filename)
-        print(path)
-        img.save(path)
-        return {
-            'Image Path':path
-            }
-    cert = draw_text("certificate.png", name)
-    return jsonify(cert)
+    return f'<img src={certByte} alt={name}>'
 
 
 if __name__ == "__main__":
