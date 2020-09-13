@@ -75,14 +75,14 @@ form .name{
 .inputs #user{
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: -20px;
     background-color: #3c185b;
     padding: 14px 10px;
     color: white;
 }
 .inputs #lock{
     position: absolute;
-    top: 123px;
+    top: 124px;
     left: 10px;
     background-color: #3c185b;
     padding: 14px 10px;
