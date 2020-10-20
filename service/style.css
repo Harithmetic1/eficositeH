@@ -16,11 +16,11 @@ body{
 .navbar-nav{
     white-space: nowrap;
 }
-     
-       .eficoN{
-           text-align: center;
-           color: white;
-       }
+    
+    .eficoN{
+        text-align: center;
+        color: white;
+    }
         .content{
         display: flex;
         text-align: center;
