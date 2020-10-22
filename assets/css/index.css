@@ -169,19 +169,21 @@ section {
     border-radius: 10px;
     flex-shrink: 0;
     width: 340px;
-    height: 448px;
+    height: auto;
     align-items: center;
     text-align: center;
     padding: 60px 25px 35px 25px;
+}
+.section-one p{
+    font-size: 15px;
+    font-weight: normal;
 }
 .section-one li:hover {
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
 }
-.section-one li img {
-    margin-top: 60px
-}
+
 .section-two {
     background-color: #3C185B;
     height: fit-content;
