@@ -97,6 +97,14 @@ main .illustration {
     width: 30%;
     height: auto
 }
+main .video-page{
+    font-size: 60px;
+    color: #FFF748;
+}
+main #play{
+    margin: 25px 0px 0px 20px; 
+    position: absolute;
+}
 .content button {
     text-align: center;
     margin-top: 20px;
@@ -403,6 +411,12 @@ footer {
      font-size: 12px;
      }
  }
+ @media only screen and (min-width: 1200px){
+    main #play{
+        margin: 25px 0px 0px 20px; 
+        position: absolute;
+    }
+ }
  @media only screen and (max-width: 1200px) {
     section.flex h1 {
         margin-bottom: 60px;
@@ -577,5 +591,36 @@ footer {
         width: 160px;
         font-size: 18px;
         height: 50px;
+    }
+    main #play{
+        /* margin: 0px 0px 0px 0px;  */
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 380px){
+    header {
+        padding: 0 25px;
+    }
+    header .logo p {
+        font-size: 16px;
+    }
+    main .content {
+        margin: 0 40px 0 25px;
+    }
+    main .content p {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    main .illustration {
+        width: 40%;
+    }
+    .content button {
+        width: 160px;
+        font-size: 18px;
+        height: 50px;
+    }
+    main #play{
+        margin: -10px 0px 20px 0px; 
+        position: absolute;
     }
 }
