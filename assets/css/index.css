@@ -101,6 +101,11 @@ main .video-page{
     font-size: 60px;
     color: #FFF748;
 }
+main #watch{
+    font-size: 15px;
+    display: none;
+    color: #FFFFFF;
+}
 main #play{
     margin: 25px 0px 0px 20px; 
     position: absolute;
@@ -415,6 +420,10 @@ footer {
     main #play{
         margin: 25px 0px 0px 20px; 
         position: absolute;
+    }
+    main #watch{
+        display: inline-block;
+        margin-left: 90px;
     }
  }
  @media only screen and (max-width: 1200px) {
