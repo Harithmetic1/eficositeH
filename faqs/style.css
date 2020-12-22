@@ -1,0 +1,84 @@
+body{
+margin: 0;
+background-color: #F0EFEF;
+box-sizing: border-box;
+}
+.navbar-nav{
+    white-space: nowrap;
+}
+ #facard{
+     width: 21rem;
+ }
+.first{
+    /* background-image: url("Home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: #3c185b;
+    text-align: center;
+}
+   
+    article{
+    margin-left: 20%;
+   
+    justify-content: center;
+    }
+    
+    .text{
+   
+font-size: 17px;
+        text-align: center;
+        word-spacing: normal;
+        box-sizing: border-box;
+        width: 70%;
+        height: 120px;
+        background-color: white;
+        color: black;
+        border-radius: 12px;
+        padding: 10px;
+    }
+    .footer{
+        background-color: #3c185b;
+        color: white;
+        text-align: center;
+    }
+    
+    
+
+
+
+@media only screen and (min-width: 700px) {
+    #facard{
+        width: 40rem;
+    }
+    .footer{
+        text-align: center;
+    }
+   
+
+}
+@media only screen and (min-width: 1020px) {
+    #facard{
+        width: 60rem;
+    }
+    .footer{
+        text-align: center;
+    }
+    .up{
+        margin-left: 40%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    #facard{
+        width: 70rem;
+    }
+    .footer{
+        text-align: center;
+    }
+    .up{
+        margin-left: 50%;
+    }
+
+}

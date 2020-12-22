@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+  
+    background-image: url(Rectangle.png);
+    background-size: cover;
+   position: relative;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.first{
+    /* background-image: url("Home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: #3c185b;
+    text-align: center;
+}
+
+.eficoN{
+    color: white;
+}
+
+h2.eficoN{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+article{
+text-align: center;
+
+}
+.body{
+    display: flex;
+}
+/* p{
+    margin:50px;
+} */
+input{
+    height: 40px;
+}
+.message{
+    height: 90px;
+}
+
+.footer{
+    background-color: #3c185b;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1020px) {
+    .up{
+        margin-left: 40%;
+    }
+    .eficoN{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    
+   
+}
+
+@media only screen and (min-width: 1200px) {
+    .up{
+        margin-left: 50%;
+    }
+    .eficoN{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    
+   
+}

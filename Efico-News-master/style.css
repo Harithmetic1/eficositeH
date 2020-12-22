@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    /* background-image: url("Home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: #3c185b;
+}
+.strong{
+    font-family: 'Roboto', sans-serif;
+}
+#train1{
+    height: 100%;
+    border-radius: 2%;
+    margin-left: 10%;
+    width: 80%;
+    box-shadow: 1px 10px 25px rgb(206, 206, 206);
+}
+#train2{
+    height: 100%;
+    border-radius: 2%;
+    margin-left: 10%;
+    width: 80%;
+    box-shadow: 1px 10px 25px rgb(206, 206, 206);
+}
+
+ .navbar-nav{
+    white-space: nowrap;
+    }
+
+.second{
+    text-align: center;
+}
+.yellow{
+    color: yellow;
+}
+.pic{
+    margin-left: -10px;
+}
+#navbarSupportedContent{
+    color: rgb(253, 252, 252);
+   
+}
+.to{
+white-space: nowrap;
+}
+
+.footer{
+    background-color: #3c185b;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1020px) {
+    #navbarSupportedContent{
+        margin-left: 40%;
+        white-space: nowrap;
+    }
+    .eficoN{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #navbarSupportedContent{
+        margin-left: 50%;
+        white-space: nowrap;
+    }
+    .eficoN{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .to{
+white-space: nowrap;
+}
+    .navbar-nav{
+    white-space: nowrap;
+    }
+    
+}

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    background-color: #3c185b;
+    padding: 45px 45px;
+    color: white;
+    text-align: center;
+}
+.row1{
+    background-color: rgb(229, 226, 226);
+    padding: 35px 35px;
+}
+
+.coli{
+    background-color: rgb(185, 185, 185);
+    background-position: center;
+    text-align: center;
+}
+.row2{
+    background-color: rgb(255, 253, 253);
+    padding: 35px 35px;
+}
+
+.col2i{
+    background-color: rgb(185, 185, 185);
+    background-position: center;
+    text-align: center;
+}
+
+.footer{
+    background-color: #3c185b;
+    color: white;
+    text-align: center;
+}
+

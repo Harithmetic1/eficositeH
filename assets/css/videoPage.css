@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    background-color: #3c185b;
+    padding: 45px 45px;
+    color: white;
+    text-align: center;
+}
+.footer{
+    background-color: #3c185b;
+    text-align: center;
+    color: white;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.contact-cards{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-cards a{
+    text-decoration: none;
+    color: black;
+}
+.video-container iframe{
+    width: 90%;
+}
+
+@media (min-width: 1200px){
+    .video-container iframe{
+        width: 560px;
+    }
+}
